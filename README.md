@@ -103,8 +103,46 @@ git clone (clicar botão direito e selecionar "paste")
 
 cd 'nome do repositório'
 
-> enter -> ***digitar:***
+> enter -> *digitar:*
 
 code .
 
-***> enter***
+*> enter*
+
+## Index.Html 
+ao entrar no vscode, você clica com o botão direito e clica em 'new file' 
+e escreva: 'Index.html' e clica em enter;
+ao entrar, você troca o 'en' por 'pt-br' 
+e escreva 'src' dentro do body
+após isso, você clica novamente com o botão direito e clica em 'new folder' e escreva: 'scripts' e enter
+após isso você cria um arquivo com o nome: 'avaliação.js' e enter. 
+
+
+## Alert e Prompt 
+alert(): mostra mensagem na tela.
+Prompt(): abre uma caixinha pro usuário comentar
+*EXEMPLO:*
+ alert('Olá!')
+ const nome = prompt('Qual o seu nome?)
+
+
+ ## Manipulação de DOM 
+ o dom é a estrutura da página HTML 
+ manipular o DOM: usar JavaScript para mudar elementos da páginas (cores, imagens.. etc)
+ *EXEMPLO:* 
+  document.getElementById('titulo').innerTex
+  t = 'Novo titulo'
+  ou seja, você faz o site mudar sem recarregar a página. 
+
+
+  ## Estrutura de condição 
+  server para tomar decisões no código 
+  Usar IF, ELSE, ELSE IF 
+*EXEMPLO:*
+const idade = 18;
+if(idade >= 18) {
+    console.log('Maior de idade')
+} else {
+    console.log('Menor de idade'):
+}
+resumindo: O código escolhe o que fazer dependendo da situação.
