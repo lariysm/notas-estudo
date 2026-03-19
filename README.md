@@ -135,8 +135,8 @@ Prompt(): abre uma caixinha pro usuário comentar
  ```bash
   document.getElementById('titulo').innerTex
   t = 'Novo titulo'
+  ```
   ou seja, você faz o site mudar sem recarregar a página. 
-```
 
   ## Estrutura de condição 
   server para tomar decisões no código 
