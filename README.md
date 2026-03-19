@@ -119,30 +119,35 @@ após isso você cria um arquivo com o nome: 'avaliação.js' e enter.
 
 
 ## Alert e Prompt 
+
 alert(): mostra mensagem na tela.
 Prompt(): abre uma caixinha pro usuário comentar
 *EXEMPLO:*
+```bash
  alert('Olá!')
  const nome = prompt('Qual o seu nome?)
-
+```
 
  ## Manipulação de DOM 
  o dom é a estrutura da página HTML 
  manipular o DOM: usar JavaScript para mudar elementos da páginas (cores, imagens.. etc)
  *EXEMPLO:* 
+ ```bash
   document.getElementById('titulo').innerTex
   t = 'Novo titulo'
   ou seja, você faz o site mudar sem recarregar a página. 
-
+```
 
   ## Estrutura de condição 
   server para tomar decisões no código 
   Usar IF, ELSE, ELSE IF 
 *EXEMPLO:*
+```bash
 const idade = 18;
 if(idade >= 18) {
     console.log('Maior de idade')
 } else {
     console.log('Menor de idade'):
 }
+```
 resumindo: O código escolhe o que fazer dependendo da situação.
